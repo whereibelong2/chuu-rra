@@ -77,7 +77,7 @@ The setup screen is where you prepare chura for a sale. Enter the event URL, qua
 
 Profile stores attendee information, while Settings lets you control what chura should and shouldn't handle.
 
-<sup> PS. There's also a **🍀 good luck spray** that does absolutely nothing. It just felt necessary.<sup>
+<sup> PS. There's also a **good luck spray** toggle that does absolutely nothing. It just felt necessary.<sup>
 
 <div align="center">
 
@@ -171,7 +171,7 @@ A public subscription release is something I'm exploring once chura has proven h
 
 ### a small note ◍⁰ᯅ⁰◍ .ᐟ.ᐟ
 
-chuu.rra does **not** bypass ticket queues or ticketing restrictions. It is designed to reduce manual input and timing friction during the ticket-purchasing workflow.
+chuu.rra does **NOT** bypass ticket queues or ticketing restrictions. It is designed to reduce manual input and timing friction during the ticket-purchasing workflow.
 
 Users remain responsible for complying with the terms and conditions of the ticketing platforms they use.
 
