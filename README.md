@@ -89,18 +89,18 @@ Profile stores attendee information, while Settings lets you control what chura 
 
 One of the biggest lessons from building chura was that automation isn't useful just because it can perform an action.
 
-It also needs to know what to do when that action doesn't work.
+It also needs to know what to do when that action doesn't work. For example:
 
-**A seat can disappear mid-attempt.**
+1. **A seat can disappear mid-attempt.**
 chura doesn't assume that clicking a seat means she successfully secured it. If the attempt fails, she can recover and continue looking instead of stopping the entire flow.
 
-**Two seats together can become one.**
+2. **Two seats together can become one.**
 When consecutive seats are requested, losing part of the group shouldn't leave the user with a broken selection. chura prioritises keeping the requested group together and starts fresh when it can't.
 
-**The page might not be ready yet.**
+3. **The page might not be ready yet.**
 Instead of relying entirely on fixed waiting periods, chura waits for the relevant part of the page to become available before acting.
 
-**Sometimes chura needs to stop.**
+4. **Sometimes chura needs to stop.**
 When the workflow reaches something that should remain with the user — such as a captcha — she hands control back instead of trying to automate through it.
 
 The goal gradually became less about making chura do more, and more about making the few things she does **predictable and recoverable**.
