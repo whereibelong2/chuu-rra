@@ -77,11 +77,7 @@ The setup screen is where you prepare chura for a sale. Enter the event URL, qua
 
 Profile stores attendee information, while Settings lets you control what chura should and shouldn't handle.
 
-And yes, there's also a **🍀 good luck spray**.
-
-It does absolutely nothing.
-
-It felt necessary.
+<sup> PS. There's also a **🍀 good luck spray** that does absolutely nothing. It just felt necessary.<sup>
 
 <div align="center">
 
